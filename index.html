@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+  <title>Simple Photo Gallery with HTML and JavaScript</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="gallery" align="center">
+    <h3>Simple HTML Photo Gallery</h3>
+
+    <div class="thumbnails">
+      <img onmouseover="preview.src=img1.src" name="img1" src="assets/beach_1.jpg" alt="" />
+      <img onmouseover="preview.src=img2.src" name="img2" src="assets/Feature.jpg" alt="" />
+      <img onmouseover="preview.src=img3.src" name="img3" src="assets/jamaica-beach-wallpaper.jpg" alt="" />
+      <img onmouseover="preview.src=img4.src" name="img4" src="assets/Jamaica-Montego-Bay_.jpg" alt="" />
+      <img onmouseover="preview.src=img5.src" name="img5" src="assets/negril_jamaica.jpg" alt="" />
+    </div>
+
+    <div class="preview" align="center">
+      <img name="preview" src="assets/beach_1.jpg" alt=""/>
+    </div>
+
+  </div> <!-- Close the gallery div -->
+</body>
+</html>
