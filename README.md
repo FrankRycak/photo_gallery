@@ -1,2 +1,2 @@
 # photo_gallery
-html/css/javascript photo gallery
+html/css photo gallery
